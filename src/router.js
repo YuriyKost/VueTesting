@@ -2,7 +2,6 @@ import VueRouter from 'vue-router';
 import information from "@/components/ActiveBarPages/information";
 import profile from "@/components/ActiveBarPages/profile";
 import tests from "@/components/ActiveBarPages/tests";
-import RootComponent from "@/components/RootComponent";
 
 export default new VueRouter({
     routes: [

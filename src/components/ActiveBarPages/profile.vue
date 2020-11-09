@@ -1,10 +1,14 @@
 <template>
-<div>страница для профиля</div>
+  <div>страница для профиля
+    <SegmentExample />
+  </div>
 </template>
 
 <script>
+import SegmentExample from "@/components/Elements/Segment";
 export default {
-name: "profile"
+name: "profile",
+  components: {SegmentExample}
 }
 </script>
 

@@ -17,12 +17,13 @@ export default {
     msg: String
   }
 }
+
 </script>
 
 <style scoped>
 #NavBar {
   grid-area: navbar;
-  background-color: gray;
+  background-color: #121B22;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

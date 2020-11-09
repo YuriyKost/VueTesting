@@ -13,7 +13,7 @@ name: "sideBar"
 <style scoped>
 #sideBar {
   grid-area: sideBar;
-  background-color: aqua;
+  background-color: #B94A3E;
 }
 
 </style>

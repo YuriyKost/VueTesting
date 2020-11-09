@@ -27,9 +27,8 @@ export default {
 #RootComponent {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   background-size: cover;
-  border: 4px solid red;
-  width: 1600px;
-  min-height: 500px;
+  width: 80vw;
+  min-height: 70vh;
   text-align: center;
   color: #2c3e50;
   margin: 60px auto auto;
@@ -42,7 +41,6 @@ export default {
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 5fr 7fr;
-  grid-gap: 10px;
 
 }
 </style>

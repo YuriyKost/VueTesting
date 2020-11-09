@@ -2,6 +2,8 @@
 <div id="ActiveBar">
   im ActiveBar
   <router-view />
+  <SuiSegment />
+
 </div>
 </template>
 
@@ -14,7 +16,7 @@ name: "ActiveBar"
 <style scoped>
 #ActiveBar{
   grid-area: ActiveBar;
-  background-color: cadetblue;
+  background-color: #204254;
 }
 
 </style>
