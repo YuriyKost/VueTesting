@@ -1,0 +1,15 @@
+.AppWrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+
+    grid-template-areas:
+    "navbar navbar"
+    "sideBar activeBar";
+
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 10px;
+
+}

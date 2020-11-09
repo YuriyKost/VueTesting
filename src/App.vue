@@ -1,28 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" >
+    <RootComponent />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RootComponent from "@/components/RootComponent";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RootComponent,
+
   }
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+
+
 }
+#app::before {
+  content: '';
+  position: fixed; /* Фиксируем на одном месте */
+  left: 0; right: 0; /* Вся ширин */
+  top: 0; bottom: 0; /* Вся высота */
+  z-index: -1; /* Фон ниже текста */
+  /* Параметры фона */
+  background: url("./assets/bg3.jpg") center / cover no-repeat;
+  filter: blur(5px); /* Размытие */
+}
+
+
 </style>
