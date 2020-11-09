@@ -33,7 +33,7 @@ export default {
   top: 0; bottom: 0; /* Вся высота */
   z-index: -1; /* Фон ниже текста */
   /* Параметры фона */
-  background: url("./assets/bg5.jpg") center / cover no-repeat;
+  background: url("./assets/bg7.jpg") center / cover no-repeat;
   filter: blur(5px); /* Размытие */
 }
 
